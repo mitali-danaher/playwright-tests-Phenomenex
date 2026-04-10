@@ -1,7 +1,7 @@
 {
   "name": "playwriteleica",
   "version": "1.0.0",
-  "description": "",
+  "description": "Welcome to **My Project Name**! This repository hosts my GitHub Pages site, where I showcase my work and share useful information.",
   "main": "index.js",
   "scripts": {},
   "keywords": [],
@@ -21,5 +21,13 @@
     "undici-types": "^7.16.0",
     "xlsx": "^0.18.5",
     "yargs": "^18.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RLE1602/playwright-tests-Phenomenex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RLE1602/playwright-tests-Phenomenex/issues"
+  },
+  "homepage": "https://github.com/RLE1602/playwright-tests-Phenomenex#readme"
 }

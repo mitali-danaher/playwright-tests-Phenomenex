@@ -1,6 +1,10 @@
-import { test, expect } from '@playwright/test';
-test.afterEach(async ({ page }, testInfo) => {
-  await testInfo.attach('Full Page Screenshot', { body: await page.screenshot({ fullPage: true }),contentType: 'image/png',});
+// test file
+const { test, expect } = require('../../fixtures/global-visual');
+
+test('Example Test', async ({ page }) => {
+  await page.goto('/');
+  await page.click('text=More info');
+  await page.fill('#search', 'Playwright');
 });
 
 test('PHX-02 OrderCheckoutFlow_ShipForMe_AmericanExpressCard_TaxExempt_U7', async ({ page }) => {
