@@ -3,9 +3,9 @@ name: Phenomenenx
 on:
   push:
     branches: [ main ]
-  workflow_dispatch:
+  workflow_dispatch: 
   schedule:
-  - cron: '30 13 * * *'
+     - cron: 40 13 * * *
 
 jobs:
   capture:
